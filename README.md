@@ -1,104 +1,16 @@
-# 🎬 Movies
+# React + Vite
 
-A fast, modern movie browsing app built with **React 19** and **Vite**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✨ Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- ⚡ Instant dev server with Vite HMR
-- ⚛️ React 19 with the latest concurrent features
-- 🔍 Browse and explore movies
-- 🧹 ESLint configured with React Hooks & React Refresh rules
-- 📦 Minimal dependencies, maximum performance
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🚀 Getting Started
+## Expanding the ESLint configuration
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v18 or higher
-- npm v9 or higher
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/movies.git
-cd movies
-
-# Install dependencies
-npm install
-```
-
-### Running Locally
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## 📜 Scripts
-
-| Command | Description |
-|---|---|
-| `npm run dev` | Start the development server with HMR |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint across the project |
-
----
-
-## 🗂️ Project Structure
-
-```
-movies/
-├── public/              # Static assets
-├── src/
-│   ├── main.jsx         # App entry point
-│   └── ...              # Components, pages, hooks
-├── index.html
-├── vite.config.js
-├── eslint.config.js
-└── package.json
-```
-
----
-
-## 🛠️ Tech Stack
-
-| Tool | Version | Purpose |
-|---|---|---|
-| [React](https://react.dev) | 19 | UI framework |
-| [Vite](https://vite.dev) | 8 | Build tool & dev server |
-| [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) | 6 | React + Oxc transforms |
-| [ESLint](https://eslint.org) | 10 | Code linting |
-
----
-
-## 📦 Building for Production
-
-```bash
-npm run build
-```
-
-Output is generated in the `dist/` folder, ready to deploy to any static host (Vercel, Netlify, GitHub Pages, etc.).
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feat/my-feature`
-3. Commit your changes: `git commit -m "feat: add my feature"`
-4. Push and open a Pull Request
-
----
-
-## 📄 License
-
-MIT © your-username
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
